@@ -1,0 +1,34 @@
+>>> x=input('Please, introduce a number: ')
+Please, introduce a number: 4
+
+>>> list=[];
+
+>>> list.append(x);
+
+>>> list
+['4']
+
+>>> list=[];
+
+>>> list.append(int(x));
+
+>>> list
+[4]
+
+>>> x=input('Please, introduce a number: ')
+Please, introduce a number: 420
+
+>>> list.append(int(x));
+
+>>> x=input('Please, introduce a number: ')
+Please, introduce a number: 69
+
+>>> list.append(int(x));
+
+>>> list
+[4, 420, 69]
+
+>>> list.sort()
+
+>>> list
+[4, 69, 420]
